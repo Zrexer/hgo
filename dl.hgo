@@ -1,0 +1,10 @@
+import os 
+
+cwd = os.getcwd()
+
+print("HGO Downloader Started", "\nTry To download Libraries in path: {}".format(cwd))
+
+try:
+    os.system("pip install requests")
+except:
+    pass
