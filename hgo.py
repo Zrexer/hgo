@@ -21,7 +21,7 @@ import time
 #----[ Its Make Possible To see the Colors for Powershell/CMD Users ]----
 os.system("")
 
-#----[ Call Downloader in Terminal ]
+#----[ Call Downloader in Terminal ]----
 if "--download-requirements" in sys.argv:
     try:
         file = open('./dl.hgo').read()
